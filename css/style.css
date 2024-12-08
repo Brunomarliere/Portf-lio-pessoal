@@ -1,0 +1,131 @@
+/*limpando */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*formatacoe genericas */
+body{
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #c4c4c4;
+}
+
+h1{
+    color: #252525;
+    font-size: 40px;
+}
+
+h2{
+    color: brown;
+}
+
+h4{
+    color: #0c0b0b;
+
+}
+
+h5{
+    color: #271a1a;
+    font-size: 13px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+
+}
+/*arrumando o menu*/
+
+#header{
+    background-color:brown;
+    padding: 15px;
+    text-align: center;
+}
+
+#logo, #menu{
+    padding: 10px;
+}
+
+#header a:link, #header a:visited{
+    color: #ffffff;
+    padding: 8px;
+}
+
+#header a:hover{
+    color:brown;
+    background-color: #f8f4f4;
+    text-decoration:none
+}
+
+#logo{
+    color: #ffffff;
+}
+/* conteudo */
+
+#content{
+    width: 1020px;
+    margin: 0 auto;
+    padding: 15px;
+}
+/* conteudo lado esquerdo */
+#portifolio{
+    width: 710px;
+    float: left;  
+}
+
+.port{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    text-align: justify;
+}
+
+.subtitulo{
+    font-size: 13px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.img-post{
+    width: 620px;
+}
+
+/* lado direito */
+#sobre{
+    width: 290px;
+    float: right;
+}
+
+.post{
+    background: #ffffff;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.form{
+    background: #ffffff;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* formatacao link */
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color: brown;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/*contato */
+#contato{
+    clear: both;
+    text-align: left;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+
